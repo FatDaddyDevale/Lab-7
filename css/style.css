@@ -25,6 +25,10 @@
 
 .textual_data_last_row{
   border-bottom: 4mm ridge rgba(25, 81, 145, 0.8);
+}
+
+.textual_data_last_row_fact{
+  border-bottom: 4mm ridge rgba(25, 81, 145, 0.8);
   text-align: left;
 }
 
