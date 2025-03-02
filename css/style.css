@@ -6,7 +6,7 @@
   width: 50%;
   margin: auto;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
   color: rgba(23, 141, 209);
   word-spacing: 10px;
   letter-spacing: 10px;
@@ -85,15 +85,6 @@ a:hover{
 
 img{
   max-width: 150px;
-}
-
-caption {
-  caption-side: bottom;
-  padding: 10px;
-  font-family: "Bona Nova SC", serif;
-  font-weight: 400;
-  font-style: italic;
-  color: rgba(225, 226, 227);
 }
 
 body{
