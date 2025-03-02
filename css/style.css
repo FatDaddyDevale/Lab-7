@@ -1,10 +1,41 @@
+#sheethead{
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  color: rgba(23, 141, 209);
+  word-spacing: 10px;
+  letter-spacing: 10px;
+}
+
+#planet_table{
+  width: 75%;
+  height: 50%;
+  margin: auto;
+  border-collapse: collapse;
+  border-style: hidden;
+  text-align: center;
+  border-bottom: 4mm ridge rgba(25, 81, 145, 0.8);
+  overflow-x: auto;
+}
+
+.textual_data_last_row{
+  border-bottom: 4mm ridge rgba(25, 81, 145, 0.8);
+}
+
 th{
   padding: 20px;
   font-family: "Space Mono", serif;
   font-weight: 700;
   font-style: normal;
-  color: rgb(215, 252, 252);
-  border: 1px solid;
+  font-size: 24px;
+  border-style: hidden;
+  /*border: 1px solid;
+  border-color: rgb(151, 152, 153);*/
   background-color: rgb(25, 81, 145);
 }
 
@@ -13,32 +44,57 @@ td{
   font-family: "Space Mono", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
   border: 1px solid;
+  color: rgba(225, 226, 227);
+  border-style: hidden;
 }
 
-tr:nth-child(odd){
-  background-color: rgba(25, 81, 145, 0.5);
-}
-  
-#sheethead{
-  font-family: "Space Mono", serif;
-  font-weight: 700;
-  font-style: italic;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  padding: 50px;
+tr:nth-child(even){
+  background-color: rgba(63, 125, 196, 0.1);
 }
 
-#planet_table{
-  width: 50%;
-  height: 50%;
-  margin: auto;
-  border-collapse: collapse;
-  text-align: center;
-  border-bottom: 4mm ridge rgba(25, 81, 145, 0.8);
-}
-
-.textual_data{
+.textual_data_fact{
   text-align: left;
+  color: rgb(215, 252, 252);
+}
+
+.textual_data_head{
+  text-align: center;
+  color: rgb(215, 252, 252);
+}
+
+a, a:link, a:visited{
+  color: rgb(215, 252, 252);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(225, 245, 5);
+}
+
+.textual_data_row{
+  text-align: left;
+  font-size: 18px;
+}
+
+img{
+  max-width: 150px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(225, 226, 227);
+}
+
+body{
+  background-image: url("../images/comet_bg.jpg");
+  background-size: cover;
+  backgorund-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
