@@ -90,7 +90,7 @@ img{
 body{
   background-image: url("../images/comet_bg.jpg");
   background-size: cover;
-  backgorund-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
